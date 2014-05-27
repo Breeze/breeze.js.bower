@@ -2,6 +2,11 @@
 
 All breezejs client-side assets including the breeze.labs
 
+[Learn more about Breeze](http://www.breezejs.com/). 
+
+##adapters
+Optional breezejs adapters, in core breeze and fully supported by the Breeze team.
+
 ##breeze.js.labs
 
 **Breeze.JS Labs** are extensions and utilities for Breeze.js client apps that are not part of core breeze.

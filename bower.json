@@ -1,6 +1,6 @@
 {
   "name": "breezejs",
-  "version": "1.4.12-preB",
+  "version": "1.4.12",
   "main": ["breeze.debug.js"],
   "dependencies": {
   }
