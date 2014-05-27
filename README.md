@@ -1,6 +1,12 @@
 #breezejs bower package
 
-All breezejs client-side assets including the breeze.labs
+All breezejs client-side assets including the breeze.labs. 
+
+To install, open a terminal or command window and enter:
+
+`bower install breezejs`
+
+>Case matters! Be sure to spell "breezejs" in all lowercase.
 
 [Learn more about Breeze](http://www.breezejs.com/). 
 
