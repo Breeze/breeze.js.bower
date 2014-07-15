@@ -21,6 +21,7 @@ echo Copying breeze client files into the breeze.js.bower repo
 XCOPY "%1..\breeze.js\build\*.js" "%1." /Y 
 
 XCOPY "%1..\breeze.js\src\breeze.dataService.mongo.js" "%1adapters" /Y 
+XCOPY "%1..\breeze.js\src\breeze.modelLibrary.backbone.js" "%1adapters" /Y 
 
 XCOPY "%1..\breeze.js.labs\*.js" "%1labs" /Y 
 XCOPY "%1..\breeze.js.labs\*.css" "%1labs" /Y 
