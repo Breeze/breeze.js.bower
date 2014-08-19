@@ -1,6 +1,6 @@
 {
   "name": "breezejs",
-  "version": "1.4.16",
+  "version": "1.4.17",
   "main": ["breeze.debug.js"],
   "ignore": ["getLibs.cmd"],
   "dependencies": {
