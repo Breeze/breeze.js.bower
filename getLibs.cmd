@@ -20,8 +20,12 @@ echo Copying breeze client files into the breeze.js.bower repo
 @echo on
 XCOPY "%1..\breeze.js\build\*.js" "%1." /Y 
 
-XCOPY "%1..\breeze.js\src\breeze.dataService.mongo.js" "%1adapters" /Y 
-XCOPY "%1..\breeze.js\src\breeze.modelLibrary.backbone.js" "%1adapters" /Y 
+
+XCOPY "%1.\breeze.dataService.mongo.js" "%1adapters"  /Y
+XCOPY "%1.\breeze.modelLibrary.backbone.js" "%1adapters"  /Y
+DEL "%1.\breeze.dataService.mongo.js"  2>nul
+DEL "%1.\breeze.modelLibrary.backbone.js"  2>nul
+
 
 XCOPY "%1..\breeze.js.labs\*.js" "%1labs" /Y 
 XCOPY "%1..\breeze.js.labs\*.css" "%1labs" /Y 
@@ -29,6 +33,7 @@ XCOPY "%1..\breeze.js.labs\*.css" "%1labs" /Y
 @echo off
 REM Exclude certain files
 @echo on
+DEL "%1.\gulpfile.js" 2>nul
 DEL "%1labs\b00_breeze.modelLibrary.new-backingstore.js" 2>nul
 DEL "%1labs\breeze.ajaxrestinterceptor.js" 2>nul
 DEL "%1labs\breeze.to$q.shim.js" 2>nul
