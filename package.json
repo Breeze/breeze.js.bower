@@ -1,11 +1,12 @@
 {
   "name": "breezejs",
-  "version": "1.5.1",
+  "version": "1.5.0",
   "description": "Breeze is a JavaScript library that helps you manage data in rich client applications. If you store data in a database, query and save those data as complex object graphs, and share these graphs across multiple screens of your JavaScript client, Breeze is",
   "keywords": [
-    "breeze",
+    "browserify",
+	"breeze",
     "javascript",
-	"framework"
+    "framework"
   ],
   "homepage": "http://www.breezejs.com/",
   "bugs": {
@@ -16,14 +17,31 @@
     "name": "IdeaBlade",
     "url": "http://www.ideablade.com/"
   },
+  "main": "breeze.debug.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Breeze/breeze.js.git"
   },
-  "main": ["breeze.debug.js"],
-  "ignore": ["getLibs.cmd", "package.json", ".npmignore"],
-  "dependencies": {
-  }
-  
-
+  "_id": "breezejs@1.5.0",
+  "_shasum": "c18c87244acd6ad7f336bc6ee16026c002cd4a0e",
+  "_from": "breezejs@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "ideablade",
+    "email": "BreezeClub@ideablade.com"
+  },
+  "maintainers": [
+    {
+      "name": "ideablade",
+      "email": "BreezeClub@ideablade.com"
+    },
+	{
+      "name": "jtraband",
+      "email": "jayt@ideablade.com"
+    },
+	{
+      "name": "wardbell",
+      "email": "wardb@ideablade.com"
+    }
+  ]
 }
