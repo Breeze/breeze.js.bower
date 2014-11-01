@@ -1,10 +1,10 @@
 {
   "name": "breezejs",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "Breeze is a JavaScript library that helps you manage data in rich client applications. If you store data in a database, query and save those data as complex object graphs, and share these graphs across multiple screens of your JavaScript client, Breeze is",
   "keywords": [
     "browserify",
-	"breeze",
+	  "breeze",
     "javascript",
     "framework"
   ],
