@@ -1,25 +1,16 @@
-# Breeze.js bower and npm packages
+# RETIRED Breeze.js bower and npm packages
 
-Herein is the official release of the Breeze.js client-side assets including the breeze.labs, drawn from their home repositories on github [here](https://github.com/Breeze/breeze.js "github: breeze.js") and [here](https://github.com/Breeze/breeze.js.labs "github: breeze.js.labs").
+The former "breeze.js" bower and npm packages have been retired as of January 20, 2014. They are **frozen at breeze release v.1.5.2**. This repo will be retained indefinitely.
 
-To install with bower, open a terminal or command window and enter:
+We've separated the breeze core and breeze labs content into their own packages:
+* **breeze-client**
+* **breeze-client-labs**
 
-`bower install breezejs`
+You'll get almost the same effect with
 
+    bower install breeze-client
+    bower install breeze-client-labs
 
-To install with npm, open a terminal or command window and enter:
+You'll have to adjust your script tags too because the files have moved around a bit too ... in obvious ways.
 
-`npm install breezejs`
-
->Case matters! Be sure to spell "breezejs" in all lowercase.
-
-[Learn more about Breeze](http://www.breezejs.com/).
-
-## adapters
-Optional breezejs adapters, in core breeze and fully supported by the Breeze team.
-
-## breeze.js.labs
-
-**Breeze.JS Labs** are extensions and utilities for Breeze.js client apps that are not part of core breeze.
-
-See the [**Breeze Labs documentation**](http://www.breezejs.com/documentation/what-are-breeze-labs) for a discussion of the Breeze Labs concept, its limitations, and for description of individual labs.
+See those packages for details.
