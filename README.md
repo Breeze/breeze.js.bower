@@ -13,4 +13,4 @@ You'll get almost the same effect with
 
 You'll have to adjust your script tags too because the files have moved around a bit too ... in obvious ways.
 
-See those packages for details.
+See [Breeze 1.5.3 release notes](http://www.getbreezenow.com/documentation/release-notes#breeze-client-news) for more details.
